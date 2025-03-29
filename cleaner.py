@@ -1,6 +1,7 @@
 def filter_nondigits(data: list) -> list:
     '''
-    this function filters out all non-digits and empty data from the input list and returns a new list with only digits
+    this function filters out all non-digits and empty data from the input list and returns a new list with only digits, 
+    converting them to integers
     '''
     filtered_data = []
     for i in data:
