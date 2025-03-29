@@ -5,7 +5,7 @@ def filter_nondigits(data: list) -> list:
     '''
     filtered_data = []
     for i in data:
-        j = i.strip()
-        if j.isdigit():
-                filtered_data.append(int(j))
+        j = i.strip() # removes empty spaces
+        if j.isdigit(): # filters digits
+                filtered_data.append(int(j)) # adds filtered digits to a new list, converts them to integers
     return filtered_data
