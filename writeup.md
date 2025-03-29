@@ -11,7 +11,7 @@ Additionaly, the pattern of appearing of incorrect values - if any - may give us
 
 During sleep, we expect maximum heart rate of a phase to be **lower** than the maximum heart rate of all other phases. Observe the visualizations and descriptive statistics that you've calculated. Using these findings, in which phase does sleep occur? Mention numerical details that back your findings.
 
-I think that the participant was sleeping during the Phase 0. It is clear on the visualization that the heart rate slows down gradually, as the participant falls asleep. Maximum Heart Rate during the Phase 0 is 93, the lowest out of all Phases, which corroborates these observations. 
+I think that the participant was sleeping during the Phase 0. It is clear on the visualization that the heart rate slows down gradually, as the participant falls asleep. Maximum Heart Rate during the Phase 0 is 93, the lowest out of all phases, which corroborates these observations. 
 
 ## Question 3
 
