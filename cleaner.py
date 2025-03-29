@@ -1,10 +1,10 @@
 def filter_nondigits(data: list) -> list:
     '''
-    this function filters out all non-digits from the input list and returns a new list with only digits
+    this function filters out all non-digits and empty data from the input list and returns a new list with only digits
     '''
     filtered_data = []
     for i in data:
-        #i = data.strip()
-        if i.isdigit():
-            filtered_data.append(int(i))
+        j = i.strip()
+        if j.isdigit():
+                filtered_data.append(int(j))
     return filtered_data

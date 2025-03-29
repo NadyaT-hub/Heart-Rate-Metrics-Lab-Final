@@ -28,8 +28,7 @@ def run(filename: str) -> None:
       
     with open(filename, "r") as data_file:
             for line in data_file:
-                if line.strip().isdigit():  # Ensure valid numbers
-                    data.append(line.strip()) # Store values in list
+                    data.append(line) # Store values in list
                 
     data_file.close()
 
