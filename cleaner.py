@@ -4,6 +4,7 @@ def filter_nondigits(data: list) -> list:
     '''
     filtered_data = []
     for i in data:
+        #i = data.strip()
         if i.isdigit():
             filtered_data.append(int(i))
     return filtered_data

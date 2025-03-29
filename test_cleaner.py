@@ -6,7 +6,7 @@ from config import clean1_out, clean2_out, clean3_out
 if __name__ == "__main__":
     print("filter_nondigits function test")
 
-    in_data = ["1", "2", "3", "4", "5", "6", "7\n"]
+    in_data = ["1\n", "2\n", "3\n", "4\n", "5\n", "6\n", "7\n"]
     assert_equal(filter_nondigits(in_data), clean1_out, "1")
 
     in_data = ["1\n", "\n", "3\n", "4\n", "5\n", "\n", "7\n"]
